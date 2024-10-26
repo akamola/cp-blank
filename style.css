@@ -7,9 +7,11 @@
  * Version: 1.0.0
  * Author: Arne Kamola
  * Author URI: https://arne.kamola.de/
- * Tags: boilerplate,responsive-layout,microformats,translation-ready
+ * Tags: boilerplate, responsive-layout, microformats, translation-ready
  * License: GPL 2.0
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Requires PHP: 7.2
+ * Requires CP: 1.4
  */
 
 @import url('modern-normalize.min.css');
