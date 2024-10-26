@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/**
+ * Theme Name: cp-blank
+ * Theme URI: https://github.com/akamola/cp-blank
+ * Description: Simple boilerplate theme for ClassicPress
+ * Version: 1.0.0
+ * Author: Arne Kamola
+ * Author URI: https://arne.kamola.de/
+ * Tags: boilerplate,responsive-layout,microformats,translation-ready
+ * License: GPL 2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+@import url('modern-normalize.min.css');
+
+:root {
+	--background-light: #FFF;
+	--text-light: #222;
+
+	--background-dark: #222;
+	--text-dark: #FFF;
+}
+
+@media screen {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html {
+		background: var(--background-light);
+		color: var(--text-light);
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		word-break: break-word;
+	}
+
+	header,
+	footer {
+		clear: both;
+	}
+
+	pre {
+		max-width: 100%;
+		overflow-x: scroll;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+		line-height: 0;
+	}
+
+	video {
+		max-width: 100%;
+		height: auto;
+	}
+
+	#jumper {
+		display: none;
+	}
+
+	div[itemprop=articleBody] .left,
+	div[itemprop=articleBody] .alignleft {
+		float: left;
+	}
+
+	div[itemprop=articleBody] .aligncenter {
+		display: block;
+		margin: 0 auto 20px;
+	}
+
+	div[itemprop=articleBody] .right,
+	div[itemprop=articleBody] .alignright {
+		float: right;
+	}
+
+	div[itemprop=articleBody] .alignnone {
+		max-width: 100%;
+	}
+
+	div[itemprop=articleBody] img.left,
+	div[itemprop=articleBody] img.alignleft {
+		width: auto;
+		height: auto;
+	}
+
+	div[itemprop=articleBody] img.aligncenter {
+		display: block;
+		width: auto;
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	div[itemprop=articleBody] img.right,
+	div[itemprop=articleBody] img.alignright {
+		width: auto;
+		height: auto;
+	}
+
+	div[itemprop=articleBody] figure {
+		max-width: 100%;
+	}
+
+	div[itemprop=articleBody] iframe {
+		max-width: 100%;
+	}
+
+	.wp-smiley {
+		width: auto !important;
+		height: auto !important;
+	}
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: var(--background-dark);
+		color: var(--text-dark);
+	}
+}
+
+/* Extra small devices, e.g. Phones */
+
+@media only screen and (max-width: 768px) {
+}
+
+/* Small devices, e.g. Tablets */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium devices, e.g. Desktops */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices, e.g. Desktops */
+
+@media only screen and (min-width: 1200px) {
+}
